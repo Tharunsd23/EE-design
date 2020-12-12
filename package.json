@@ -11,6 +11,8 @@
     "bootstrap": "^4.5.3",
     "emailjs-com": "^2.6.4",
     "firebase": "^8.1.2",
+    "node": "12.19.0",
+    "node-sass": "^4.14.1",
     "react": "^17.0.1",
     "react-context-api": "^1.0.2",
     "react-currency-format": "^1.0.0",

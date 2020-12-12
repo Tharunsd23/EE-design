@@ -30,22 +30,9 @@ function Checkout() {
           
         </div>
       </div>
-      <div className="bigTotal">
-            <div className="totalContainer">
-                <Subtotal />
-            </div>
-      
-          <div className="warningContainer">
-            *Please use the following test credit card for payments*
-            <br />
-            4242 4242 4242 4242 - Exp: 01/22 - CVV: 123
-            <StripeCheckoutButton price={getBasketTotal} />
-          </div>
-       
-          
-    
-        </div>
-    </div>  
+
+     
+    </div>
   );
 }
 

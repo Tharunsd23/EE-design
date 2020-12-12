@@ -10,6 +10,8 @@ import {initialState,reducer} from "./reducer";
 ReactDOM.render(
   <React.StrictMode>
 
+   
+
   <StateProvider initialState={initialState} reducer={reducer}>
       <App />
   </StateProvider>  

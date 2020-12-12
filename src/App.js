@@ -1,6 +1,7 @@
 import "./App.css";
 
-import React,{ useEffect} from "react";
+import React,{useEffect} from "react";
+
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./Header";
@@ -40,12 +41,12 @@ function App() {
        });
      },[]);
 
-    
-  return (
-    <Router>
-      <div className="App">
-      <Header />
+
+return(
+<Router>
+  <div>
         <Switch>
+
 
           <Route path="/contact-us">
             <ContactUs />
@@ -59,7 +60,7 @@ function App() {
           <Route path="/checkout">
               <CheckoutPage />
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <HomePage />
           </Route>
         </Switch>

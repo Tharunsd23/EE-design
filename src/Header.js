@@ -1,11 +1,9 @@
-import React from "react";
-import "./Header.scss";
+import React,{useStateValue} from "react";
+import "./Header.css";
 import { Link, useHistory } from "react-router-dom";
 import { ReactComponent as Logo } from "./assets/Logo.svg";
 import { ReactComponent as Vector } from "./assets/Vector.svg";
 import {auth} from "./firebase";
-
-import {useStateValue} from './StateProvider';
 
 
 
@@ -86,7 +84,6 @@ function Header() {
     </div>
   );
 }
-
 
 export default Header;
 
